@@ -1,5 +1,5 @@
 FROM httpd
-RUN apt-get update
+RUN apt-get update -y
 RUN apt-get install wget -y
 RUN apt-get install unzip -y
 RUN wget https://www.free-css.com/assets/files/free-css-templates/download/page272/revetive.zip
